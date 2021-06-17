@@ -1,7 +1,7 @@
 # Shortest problems on Codeforces
 
 <details>
-  <summary>Spoiler warning</summary>
+  <summary>800</summary>
   
   Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
   
@@ -10,7 +10,6 @@
   ```
   
 </details>
-
 List of Codeforces problems with a short problem statement of 1000 characters or less. Sorted for each rating level.
 
 | Title | Links |
@@ -28,9 +27,12 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 
 
 
+<details>
+  <summary>800</summary>
+
 |# | ID | Problem  | Rating |
-|:---: | :---:| ----- | :---: |
-|1|952A|[Quirky Quantifiers](https://codeforces.com/problemset/problem/952/A)|<span id="800">800</span>|
+|--- | ---| ----- | ---------- |
+|1|952A|[Quirky Quantifiers](https://codeforces.com/problemset/problem/952/A)|800|
 |2|281A|[Word Capitalization](https://codeforces.com/problemset/problem/281/A)|800|
 |3|1088A|[Ehab and another construction problem](https://codeforces.com/problemset/problem/1088/A)|800|
 |4|1096A|[Find Divisible](https://codeforces.com/problemset/problem/1096/A)|800|
@@ -110,8 +112,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |78|581A|[Vasya the Hipster](https://codeforces.com/problemset/problem/581/A)|800|
 |79|38A|[Army](https://codeforces.com/problemset/problem/38/A)|800|
 |80|1080A|[Petya and Origami](https://codeforces.com/problemset/problem/1080/A)|800|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|26A|[Almost Prime](https://codeforces.com/problemset/problem/26/A)|<span id="900">900</span>|
+</details>
+
+<details>
+  <summary>900</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|26A|[Almost Prime](https://codeforces.com/problemset/problem/26/A)|900|
 |2|44A|[Indian Summer](https://codeforces.com/problemset/problem/44/A)|900|
 |3|130A|[Hexagonal numbers](https://codeforces.com/problemset/problem/130/A)|900|
 |4|52A|[123-sequence](https://codeforces.com/problemset/problem/52/A)|900|
@@ -143,8 +151,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |30|870A|[Search for Pretty Integers](https://codeforces.com/problemset/problem/870/A)|900|
 |31|318A|[Even Odds](https://codeforces.com/problemset/problem/318/A)|900|
 |32|1095B|[Array Stabilization](https://codeforces.com/problemset/problem/1095/B)|900|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|37A|[Towers](https://codeforces.com/problemset/problem/37/A)|<span id="1000">1000</span>|
+</details>
+
+<details>
+  <summary>1000</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|37A|[Towers](https://codeforces.com/problemset/problem/37/A)|1000|
 |2|1177A|[Digits Sequence (Easy Edition)](https://codeforces.com/problemset/problem/1177/A)|1000|
 |3|753A|[Santa Claus and Candies](https://codeforces.com/problemset/problem/753/A)|1000|
 |4|1256A|[Payment Without Change](https://codeforces.com/problemset/problem/1256/A)|1000|
@@ -197,8 +211,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |51|102B|[Sum of Digits](https://codeforces.com/problemset/problem/102/B)|1000|
 |52|507A|[Amr and Music](https://codeforces.com/problemset/problem/507/A)|1000|
 |53|120A|[Elevator](https://codeforces.com/problemset/problem/120/A)|1000|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|797A|[k-Factorization](https://codeforces.com/problemset/problem/797/A)|<span id="1100">1100</span>|
+</details>
+
+<details>
+  <summary>1100</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|797A|[k-Factorization](https://codeforces.com/problemset/problem/797/A)|1100|
 |2|188D|[Asterisks](https://codeforces.com/problemset/problem/188/D)|1100|
 |3|188A|[Hexagonal Numbers](https://codeforces.com/problemset/problem/188/A)|1100|
 |4|919B|[Perfect Number](https://codeforces.com/problemset/problem/919/B)|1100|
@@ -240,8 +260,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |40|596A|[Wilbur and Swimming Pool](https://codeforces.com/problemset/problem/596/A)|1100|
 |41|475A|[Bayan Bus](https://codeforces.com/problemset/problem/475/A)|1100|
 |42|1115G1|[AND oracle](https://codeforces.com/problemset/problem/1115/G1)|1100|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|171A|[Mysterious numbers - 1](https://codeforces.com/problemset/problem/171/A)|<span id="120">1200</span>|
+</details>
+
+<details>
+  <summary>1200</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|171A|[Mysterious numbers - 1](https://codeforces.com/problemset/problem/171/A)|1200|
 |2|23A|[You're Given a String...](https://codeforces.com/problemset/problem/23/A)|1200|
 |3|1315C|[Restoring Permutation](https://codeforces.com/problemset/problem/1315/C)|1200|
 |4|803B|[Distances to Zero](https://codeforces.com/problemset/problem/803/B)|1200|
@@ -287,8 +313,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |44|892B|[Wrath](https://codeforces.com/problemset/problem/892/B)|1200|
 |45|554B|[Ohana Cleans Up](https://codeforces.com/problemset/problem/554/B)|1200|
 |46|977C|[Less or Equal](https://codeforces.com/problemset/problem/977/C)|1200|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|171B|[Star](https://codeforces.com/problemset/problem/171/B)|<span id="1300">1300</span>|
+</details>
+
+<details>
+  <summary>1300</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|171B|[Star](https://codeforces.com/problemset/problem/171/B)|1300|
 |2|64A|[Factorial](https://codeforces.com/problemset/problem/64/A)|1300|
 |3|1294C|[Product of Three Numbers](https://codeforces.com/problemset/problem/1294/C)|1300|
 |4|770B|[Maximize Sum of Digits](https://codeforces.com/problemset/problem/770/B)|1300|
@@ -334,8 +366,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |44|965B|[Battleship](https://codeforces.com/problemset/problem/965/B)|1300|
 |45|203B|[Game on Paper](https://codeforces.com/problemset/problem/203/B)|1300|
 |46|40A|[Find Color](https://codeforces.com/problemset/problem/40/A)|1300|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|290A|[Mysterious strings](https://codeforces.com/problemset/problem/290/A)|<span id="1400">1400</span>|
+</details>
+
+<details>
+  <summary>1400</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|290A|[Mysterious strings](https://codeforces.com/problemset/problem/290/A)|1400|
 |2|130B|[Gnikool Ssalg](https://codeforces.com/problemset/problem/130/B)|1400|
 |3|290D|[Orange](https://codeforces.com/problemset/problem/290/D)|1400|
 |4|188C|[LCM](https://codeforces.com/problemset/problem/188/C)|1400|
@@ -382,8 +420,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |45|762A|[k-th divisor](https://codeforces.com/problemset/problem/762/A)|1400|
 |46|1001D|[Distinguish plus state and minus state](https://codeforces.com/problemset/problem/1001/D)|1400|
 |47|513B1|[Permutations](https://codeforces.com/problemset/problem/513/B1)|1400|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|130C|[Decimal sum](https://codeforces.com/problemset/problem/130/C)|<span id="1500">1500</span>|
+</details>
+
+<details>
+  <summary>1500</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|130C|[Decimal sum](https://codeforces.com/problemset/problem/130/C)|1500|
 |2|670D2|[Magic Powder - 2](https://codeforces.com/problemset/problem/670/D2)|1500|
 |3|290B|[QR code](https://codeforces.com/problemset/problem/290/B)|1500|
 |4|409H|[A + B Strikes Back](https://codeforces.com/problemset/problem/409/H)|1500|
@@ -423,8 +467,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |38|31B|[Sysadmin Bob](https://codeforces.com/problemset/problem/31/B)|1500|
 |39|425A|[Sereja and Swaps](https://codeforces.com/problemset/problem/425/A)|1500|
 |40|114B|[PFAST Inc.](https://codeforces.com/problemset/problem/114/B)|1500|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|171G|[Mysterious numbers - 2](https://codeforces.com/problemset/problem/171/G)|<span id="1600">1600</span>|
+</details>
+
+<details>
+  <summary>1600</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|171G|[Mysterious numbers - 2](https://codeforces.com/problemset/problem/171/G)|1600|
 |2|171F|[ucyhf](https://codeforces.com/problemset/problem/171/F)|1600|
 |3|683C|[Symmetric Difference](https://codeforces.com/problemset/problem/683/C)|1600|
 |4|188G|[Array Sorting](https://codeforces.com/problemset/problem/188/G)|1600|
@@ -480,8 +530,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |54|1140C|[Playlist](https://codeforces.com/problemset/problem/1140/C)|1600|
 |55|235A|[LCM Challenge](https://codeforces.com/problemset/problem/235/A)|1600|
 |56|616D|[Longest k-Good Segment](https://codeforces.com/problemset/problem/616/D)|1600|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|784A|[Numbers Joke](https://codeforces.com/problemset/problem/784/A)|<span id="1700">1700</span>|
+</details>
+
+<details>
+  <summary>1700</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|784A|[Numbers Joke](https://codeforces.com/problemset/problem/784/A)|1700|
 |2|76E|[Points](https://codeforces.com/problemset/problem/76/E)|1700|
 |3|171H|[A polyline](https://codeforces.com/problemset/problem/171/H)|1700|
 |4|130G|[CAPS LOCK ON](https://codeforces.com/problemset/problem/130/G)|1700|
@@ -522,8 +578,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |39|490C|[Hacking Cypher](https://codeforces.com/problemset/problem/490/C)|1700|
 |40|578A|[A Problem about Polyline](https://codeforces.com/problemset/problem/578/A)|1700|
 |41|1219C|[Periodic integer number](https://codeforces.com/problemset/problem/1219/C)|1700|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|409E|[Dome](https://codeforces.com/problemset/problem/409/E)|<span id="1800">1800</span>|
+</details>
+
+<details>
+  <summary>1800</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|409E|[Dome](https://codeforces.com/problemset/problem/409/E)|1800|
 |2|802B|[Heidi and Library (medium)](https://codeforces.com/problemset/problem/802/B)|1800|
 |3|652D|[Nested Segments](https://codeforces.com/problemset/problem/652/D)|1800|
 |4|162H|[Alternating case](https://codeforces.com/problemset/problem/162/H)|1800|
@@ -569,8 +631,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |44|1042D|[Petya and Array](https://codeforces.com/problemset/problem/1042/D)|1800|
 |45|513B2|[Permutations](https://codeforces.com/problemset/problem/513/B2)|1800|
 |46|33B|[String Problem](https://codeforces.com/problemset/problem/33/B)|1800|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|409F|[000001](https://codeforces.com/problemset/problem/409/F)|<span id="1900">1900</span>|
+</details>
+
+<details>
+  <summary>1900</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|409F|[000001](https://codeforces.com/problemset/problem/409/F)|1900|
 |2|656A|[Da Vinci Powers](https://codeforces.com/problemset/problem/656/A)|1900|
 |3|656F|[Ace It!](https://codeforces.com/problemset/problem/656/F)|1900|
 |4|784D|[Touchy-Feely Palindromes](https://codeforces.com/problemset/problem/784/D)|1900|
@@ -626,8 +694,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |54|455B|[A Lot of Games](https://codeforces.com/problemset/problem/455/B)|1900|
 |55|470D|[Caesar Cipher](https://codeforces.com/problemset/problem/470/D)|1900|
 |56|25C|[Roads in Berland](https://codeforces.com/problemset/problem/25/C)|1900|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|600D|[Area of Two Circles' Intersection](https://codeforces.com/problemset/problem/600/D)|<span id="2000">2000</span>|
+</details>
+
+<details>
+  <summary>2000</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|600D|[Area of Two Circles' Intersection](https://codeforces.com/problemset/problem/600/D)|2000|
 |2|661C|[Array Sum](https://codeforces.com/problemset/problem/661/C)|2000|
 |3|784B|[Kids' Riddle](https://codeforces.com/problemset/problem/784/B)|2000|
 |4|162G|[Non-decimal sum](https://codeforces.com/problemset/problem/162/G)|2000|
@@ -669,8 +743,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |40|1209E1|[Rotate Columns (easy version)](https://codeforces.com/problemset/problem/1209/E1)|2000|
 |41|1244E|[Minimizing Difference](https://codeforces.com/problemset/problem/1244/E)|2000|
 |42|963B|[Destruction of a Tree](https://codeforces.com/problemset/problem/963/B)|2000|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|661D|[Maximal Difference](https://codeforces.com/problemset/problem/661/D)|<span id="2100">2100</span>|
+</details>
+
+<details>
+  <summary>2100</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|661D|[Maximal Difference](https://codeforces.com/problemset/problem/661/D)|2100|
 |2|919E|[Congruence Equation](https://codeforces.com/problemset/problem/919/E)|2100|
 |3|1217D|[Coloring Edges](https://codeforces.com/problemset/problem/1217/D)|2100|
 |4|153E|[Euclidean Distance](https://codeforces.com/problemset/problem/153/E)|2100|
@@ -702,8 +782,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |30|1213F|[Unstable String Sort](https://codeforces.com/problemset/problem/1213/F)|2100|
 |31|1184A2|[Heidi Learns Hashing (Medium)](https://codeforces.com/problemset/problem/1184/A2)|2100|
 |32|630P|[Area of a Star](https://codeforces.com/problemset/problem/630/P)|2100|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|409G|[On a plane](https://codeforces.com/problemset/problem/409/G)|<span id="2200">2200</span>|
+</details>
+
+<details>
+  <summary>2200</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|409G|[On a plane](https://codeforces.com/problemset/problem/409/G)|2200|
 |2|1070A|[Find a Number](https://codeforces.com/problemset/problem/1070/A)|2200|
 |3|802E|[Marmots (medium)](https://codeforces.com/problemset/problem/802/E)|2200|
 |4|1154G|[Minimum Possible LCM](https://codeforces.com/problemset/problem/1154/G)|2200|
@@ -735,8 +821,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |30|153C|[Caesar Cipher](https://codeforces.com/problemset/problem/153/C)|2200|
 |31|52C|[Circular RMQ](https://codeforces.com/problemset/problem/52/C)|2200|
 |32|1034B|[Little C Loves 3 II](https://codeforces.com/problemset/problem/1034/B)|2200|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|470H|[Array Sorting](https://codeforces.com/problemset/problem/470/H)|<span id="2300">2300</span>|
+</details>
+
+<details>
+  <summary>2300</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|470H|[Array Sorting](https://codeforces.com/problemset/problem/470/H)|2300|
 |2|130I|[Array sorting](https://codeforces.com/problemset/problem/130/I)|2300|
 |3|306D|[Polygon](https://codeforces.com/problemset/problem/306/D)|2300|
 |4|470G|[Hamming Distance](https://codeforces.com/problemset/problem/470/G)|2300|
@@ -776,8 +868,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |38|364C|[Beautiful Set](https://codeforces.com/problemset/problem/364/C)|2300|
 |39|40C|[Berland Square](https://codeforces.com/problemset/problem/40/C)|2300|
 |40|727E|[Games on a CD](https://codeforces.com/problemset/problem/727/E)|2300|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|661H|[Rotate Matrix](https://codeforces.com/problemset/problem/661/H)|<span id="2400">2400</span>|
+</details>
+
+<details>
+  <summary>2400</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|661H|[Rotate Matrix](https://codeforces.com/problemset/problem/661/H)|2400|
 |2|21D|[Traveling Graph](https://codeforces.com/problemset/problem/21/D)|2400|
 |3|952F|[2 + 2 != 4](https://codeforces.com/problemset/problem/952/F)|2400|
 |4|1051F|[The Shortest Statement](https://codeforces.com/problemset/problem/1051/F)|2400|
@@ -818,8 +916,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |39|959F|[Mahmoud and Ehab and yet another xor task](https://codeforces.com/problemset/problem/959/F)|2400|
 |40|865D|[Buy Low Sell High](https://codeforces.com/problemset/problem/865/D)|2400|
 |41|1257F|[Make Them Similar](https://codeforces.com/problemset/problem/1257/F)|2400|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|401E|[Olympic Games](https://codeforces.com/problemset/problem/401/E)|<span id="2500">2500</span>|
+</details>
+
+<details>
+  <summary>2500</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|401E|[Olympic Games](https://codeforces.com/problemset/problem/401/E)|2500|
 |2|55E|[Very simple problem](https://codeforces.com/problemset/problem/55/E)|2500|
 |3|23C|[Oranges and Apples](https://codeforces.com/problemset/problem/23/C)|2500|
 |4|55D|[Beautiful numbers](https://codeforces.com/problemset/problem/55/D)|2500|
@@ -845,8 +949,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |24|1209E2|[Rotate Columns (hard version)](https://codeforces.com/problemset/problem/1209/E2)|2500|
 |25|1188C|[Array Beauty](https://codeforces.com/problemset/problem/1188/C)|2500|
 |26|1175F|[The Number of Subpermutations](https://codeforces.com/problemset/problem/1175/F)|2500|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|23D|[Tetragon](https://codeforces.com/problemset/problem/23/D)|<span id="2600">2600</span>|
+</details>
+
+<details>
+  <summary>2600</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|23D|[Tetragon](https://codeforces.com/problemset/problem/23/D)|2600|
 |2|1120E|[The very same Munchhausen](https://codeforces.com/problemset/problem/1120/E)|2600|
 |3|1278F|[Cards](https://codeforces.com/problemset/problem/1278/F)|2600|
 |4|662C|[Binary Table](https://codeforces.com/problemset/problem/662/C)|2600|
@@ -861,8 +971,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |13|682E|[Alyona and Triangles](https://codeforces.com/problemset/problem/682/E)|2600|
 |14|1227G|[Not Same](https://codeforces.com/problemset/problem/1227/G)|2600|
 |15|338E|[Optimize!](https://codeforces.com/problemset/problem/338/E)|2600|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|1182F|[Maximum Sine](https://codeforces.com/problemset/problem/1182/F)|<span id="2700">2700</span>|
+</details>
+
+<details>
+  <summary>2700</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|1182F|[Maximum Sine](https://codeforces.com/problemset/problem/1182/F)|2700|
 |2|958E3|[Guard Duty (hard)](https://codeforces.com/problemset/problem/958/E3)|2700|
 |3|1270G|[Subset with Zero Sum](https://codeforces.com/problemset/problem/1270/G)|2700|
 |4|1019D|[Large Triangle](https://codeforces.com/problemset/problem/1019/D)|2700|
@@ -876,8 +992,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |12|70D|[Professor's task](https://codeforces.com/problemset/problem/70/D)|2700|
 |13|1205D|[Almost All](https://codeforces.com/problemset/problem/1205/D)|2700|
 |14|982F|[The Meeting Place Cannot Be Changed](https://codeforces.com/problemset/problem/982/F)|2700|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|600F|[Edge coloring of bipartite graph](https://codeforces.com/problemset/problem/600/F)|<span id="2800">2800</span>|
+</details>
+
+<details>
+  <summary>2800</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|600F|[Edge coloring of bipartite graph](https://codeforces.com/problemset/problem/600/F)|2800|
 |2|1067E|[Random Forest Rank](https://codeforces.com/problemset/problem/1067/E)|2800|
 |3|575I|[Robots protection](https://codeforces.com/problemset/problem/575/I)|2800|
 |4|819E|[Mister B and Flight to the Moon](https://codeforces.com/problemset/problem/819/E)|2800|
@@ -890,8 +1012,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |11|908G|[New Year and Original Order](https://codeforces.com/problemset/problem/908/G)|2800|
 |12|1031F|[Familiar Operations](https://codeforces.com/problemset/problem/1031/F)|2800|
 |13|325E|[The Red Button](https://codeforces.com/problemset/problem/325/E)|2800|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|1285F|[Classical?](https://codeforces.com/problemset/problem/1285/F)|<span id="2900">2900</span>|
+</details>
+
+<details>
+  <summary>2900</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|1285F|[Classical?](https://codeforces.com/problemset/problem/1285/F)|2900|
 |2|1198F|[GCD Groups 2](https://codeforces.com/problemset/problem/1198/F)|2900|
 |3|802O|[April Fools' Problem (hard)](https://codeforces.com/problemset/problem/802/O)|2900|
 |4|598F|[Cut Length](https://codeforces.com/problemset/problem/598/F)|2900|
@@ -904,8 +1032,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |11|455E|[Function](https://codeforces.com/problemset/problem/455/E)|2900|
 |12|980F|[Cactus to Tree](https://codeforces.com/problemset/problem/980/F)|2900|
 |13|886F|[Symmetric Projections](https://codeforces.com/problemset/problem/886/F)|2900|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|364E|[Empty Rectangles](https://codeforces.com/problemset/problem/364/E)|<span id="3000">3000</span>|
+</details>
+
+<details>
+  <summary>3000</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|364E|[Empty Rectangles](https://codeforces.com/problemset/problem/364/E)|3000|
 |2|335F|[Buy One, Get One Free](https://codeforces.com/problemset/problem/335/F)|3000|
 |3|243E|[Matrix](https://codeforces.com/problemset/problem/243/E)|3000|
 |4|1175G|[Yet Another Partiton Problem](https://codeforces.com/problemset/problem/1175/G)|3000|
@@ -914,8 +1048,14 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |7|504E|[Misha and LCP on Tree](https://codeforces.com/problemset/problem/504/E)|3000|
 |8|1211I|[Unusual Graph](https://codeforces.com/problemset/problem/1211/I)|3000|
 |9|375E|[Red and Black Tree](https://codeforces.com/problemset/problem/375/E)|3000|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|1168E|[Xor Permutations](https://codeforces.com/problemset/problem/1168/E)|<span id="3100">3100</span>|
+</details>
+
+<details>
+  <summary>3100</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|1168E|[Xor Permutations](https://codeforces.com/problemset/problem/1168/E)|3100|
 |2|720F|[Array Covering](https://codeforces.com/problemset/problem/720/F)|3100|
 |3|164D|[Minimum Diameter](https://codeforces.com/problemset/problem/164/D)|3100|
 |4|804E|[The same permutation ](https://codeforces.com/problemset/problem/804/E)|3100|
@@ -929,18 +1069,42 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 |12|720C|[Homework](https://codeforces.com/problemset/problem/720/C)|3100|
 |13|407E|[k-d-sequence](https://codeforces.com/problemset/problem/407/E)|3100|
 |14|442E|[Gena and Second Distance](https://codeforces.com/problemset/problem/442/E)|3100|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|690F3|[Tree of Life (hard)](https://codeforces.com/problemset/problem/690/F3)|<span id="3200">3200</span>|
+</details>
+
+<details>
+  <summary>3200</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|690F3|[Tree of Life (hard)](https://codeforces.com/problemset/problem/690/F3)|3200|
 |2|1007D|[Ants](https://codeforces.com/problemset/problem/1007/D)|3200|
 |3|571E|[Geometric Progressions](https://codeforces.com/problemset/problem/571/E)|3200|
 |4|1268D|[Invertation in Tournament](https://codeforces.com/problemset/problem/1268/D)|3200|
 |5|457F|[An easy problem about trees](https://codeforces.com/problemset/problem/457/F)|3200|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|906E|[Reverses](https://codeforces.com/problemset/problem/906/E)|<span id="3300">3300</span>|
+</details>
+
+<details>
+  <summary>3300</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|906E|[Reverses](https://codeforces.com/problemset/problem/906/E)|3300|
 |2|1266G|[Permutation Concatenation](https://codeforces.com/problemset/problem/1266/G)|3300|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|1268E|[Happy Cactus](https://codeforces.com/problemset/problem/1268/E)|<span id="3400">3400</span>|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|1054H|[Epic Convolution](https://codeforces.com/problemset/problem/1054/H)|<span id="3500">3500</span>|
+</details>
+
+<details>
+  <summary>3400</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|1268E|[Happy Cactus](https://codeforces.com/problemset/problem/1268/E)|3400|
+</details>
+
+<details>
+  <summary>3500</summary>
+
+|# | ID | Problem  | Rating |
+|--- | ---| ----- | ---------- |
+|1|1054H|[Epic Convolution](https://codeforces.com/problemset/problem/1054/H)|3500|
 |2|799G|[Cut the pie](https://codeforces.com/problemset/problem/799/G)|3500|
-| ----- | ---------- | ------------------------------------------------------------ | ----- |
+</details>
