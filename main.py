@@ -139,17 +139,18 @@ for x in range(800, 5000, 100):
                                                                                                   "problem_statement_length <= 1000 ORDER BY "
                                                                                                   "problem_statement_length")
     problems = db.fetchall()
-    f.write("|# | ID | Problem  | Rating |\n"
-            "|--- | ---| ----- | ---------- |\n")
-    index = 1
-    for (problem_id, problem_name, problem_url, problem_statement_length,
-         difficulty_rating, solved_by) in problems:
-        try:
-            f.write(
-                "|" + str(index) + "|" + problem_id + "|[" + problem_name + "](" + problem_url + ")|"
-                + str(difficulty_rating) + "|\n")
-        except Exception as e:
-            print(f"Error: {e}")
-            continue
-        index = index + 1
-    f.write("\n\n")
+    if len(problems) >= 1:
+        f.write("|# | ID | Problem  | Rating |\n"
+                "|--- | ---| ----- | ---------- |\n")
+        index = 1
+        for (problem_id, problem_name, problem_url, problem_statement_length,
+             difficulty_rating, solved_by) in problems:
+            try:
+                f.write(
+                    "|" + str(index) + "|" + problem_id + "|[" + problem_name + "](" + problem_url + ")|"
+                    + str(difficulty_rating) + "|\n")
+            except Exception as e:
+                print(f"Error: {e}")
+                continue
+            index = index + 1
+        f.write("\n\n")
