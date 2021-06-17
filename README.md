@@ -4,7 +4,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 
 | Title | Links |
 |:---: | :---:|
-| Newbie| [800](#700)(80) [900](#800)(32) [1000](#900)(53) [1100](#1000)(42)|
+| Newbie| [800](#800)(80) [900](#800)(32) [1000](#900)(53) [1100](#1000)(42)|
 | Pupil |  [1200](#1100)(46) [1300](#1200)(46) |
 | Specialist|  [1400](#1300)(47) [1500](#1400)(40) |
 | Export |  [1600](#1500)(56) [1700](#1600)(41) [1800](#1700)(46) |
@@ -14,8 +14,6 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 | Grandmaster| [2400](#2300)(41) [2500](#2400)(26)|
 | International Grandmaster| [2600](#2500)(15) [2700](#2600)(14) [2800](#2700)(13) [2900](#2800)(13) |
 | Legendary Grandmaster| [3000](#2900)(9) [3100](#3000)(14) [3200](#3100)(5) [3300](#3200)(2) [3400](#3300)(1) [3500](#3400)(2) |
-
-
 
 <details>
   <summary><span id=800>800</span></summary>
