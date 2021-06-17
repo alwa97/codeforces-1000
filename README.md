@@ -1,31 +1,46 @@
 # Shortest problems on Codeforces
 
-<span style="color: gray;"> Newbie: </span>
-
+Newbie:
 [800](#800)
 [900](#900)
 [1000](#1000)
 [1100](#1100)
 
-<span style="color: rgb(136,204,34);">Pupil</span>
+Pupil: 
 [1200](#1200)
 [1300](#1300)
+
+Specialist:
 [1400](#1400)
 [1500](#1500)
+
+Export:
 [1600](#1600)
 [1700](#1700)
 [1800](#1800)
+
+Candidate Master:
 [1900](#1900)
 [2000](#2000)
+
+Master:
 [2100](#2100)
 [2200](#2200)
+
+International Master:
 [2300](#2300)
+
+Grandmaster:
 [2400](#2400)
 [2500](#2500)
+
+International Grandmaster:
 [2600](#2600)
 [2700](#2700)
 [2800](#2800)
 [2900](#2900)
+
+Legendary Grandmaster:
 [3000](#3000)
 [3100](#3100)
 [3200](#3200)
