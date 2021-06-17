@@ -133,6 +133,9 @@ db = conn.cursor()
 ##########################################################################################################
 f = open('problem_table.txt', 'w')
 
+f.write("|# | ID | Problem  | Rating |\n"
+        "|--- | ---| ----- | ---------- |\n")
+
 for x in range(800, 5000, 100):
     db.execute("SELECT problem_id, problem_name, problem_url, problem_statement_length, "
                "difficulty_rating, solved_by FROM problems WHERE difficulty_rating = " + str(x) + " AND "
@@ -140,8 +143,7 @@ for x in range(800, 5000, 100):
                                                                                                   "problem_statement_length")
     problems = db.fetchall()
     if len(problems) >= 1:
-        f.write("|# | ID | Problem  | Rating |\n"
-                "|--- | ---| ----- | ---------- |\n")
+
         index = 1
         for (problem_id, problem_name, problem_url, problem_statement_length,
              difficulty_rating, solved_by) in problems:
@@ -153,4 +155,4 @@ for x in range(800, 5000, 100):
                 print(f"Error: {e}")
                 continue
             index = index + 1
-        f.write("\n\n")
+        f.write("| ----- | ---------- | ------------------------------------------------------------ | ----- |\n")
