@@ -28,7 +28,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 
 
 <details>
-  <summary>800</summary>
+  <summary><span id=800>800</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -115,7 +115,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>900</summary>
+  <summary><span id=900>900</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -154,7 +154,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>1000</summary>
+  <summary><span id=1000>1000</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -214,7 +214,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>1100</summary>
+  <summary><span id=1100>1100</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -263,7 +263,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>1200</summary>
+  <summary><span id=1200>1200</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -316,7 +316,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>1300</summary>
+  <summary><span id=1300>1300</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -369,7 +369,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>1400</summary>
+  <summary><span id=1400>1400</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -423,7 +423,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>1500</summary>
+  <summary><span id=1500>1500</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -470,7 +470,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>1600</summary>
+  <summary><span id=1600>1600</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -533,7 +533,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>1700</summary>
+  <summary><span id=1700>1700</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -581,7 +581,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>1800</summary>
+  <summary><span id=1800>1800</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -634,7 +634,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>1900</summary>
+  <summary><span id=1900>1900</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -697,7 +697,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>2000</summary>
+  <summary><span id=2000>2000</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -746,7 +746,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>2100</summary>
+  <summary><span id=2100>2100</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -785,7 +785,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>2200</summary>
+  <summary><span id=2200>2200</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -824,7 +824,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>2300</summary>
+  <summary><span id=2300>2300</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -871,7 +871,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>2400</summary>
+  <summary><span id=2400>2400</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -919,7 +919,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>2500</summary>
+  <summary><span id=2500>2500</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -952,7 +952,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>2600</summary>
+  <summary><span id=2600>2600</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -974,7 +974,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>2700</summary>
+  <summary><span id=2700>2700</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -995,7 +995,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>2800</summary>
+  <summary><span id=2800>2800</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -1015,7 +1015,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>2900</summary>
+  <summary><span id=2900>2900</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -1035,7 +1035,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>3000</summary>
+  <summary><span id=3000>3000</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -1051,7 +1051,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>3100</summary>
+  <summary><span id=3100>3100</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -1072,7 +1072,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>3200</summary>
+  <summary><span id=3200>3200</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -1084,7 +1084,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>3300</summary>
+  <summary><span id=3300>3300</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -1093,7 +1093,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>3400</summary>
+  <summary><span id=3400>3400</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
@@ -1101,7 +1101,7 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 </details>
 
 <details>
-  <summary>3500</summary>
+  <summary><span id=3500>3500</span></summary>
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
