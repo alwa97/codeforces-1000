@@ -51,7 +51,7 @@ Legendary Grandmaster:
 
 
 |# | ID | Problem  | Rating |
-|--- | ---| ----- | ---------- |
+|:---: | :---:| ----- | :---: |
 |1|952A|[Quirky Quantifiers](https://codeforces.com/problemset/problem/952/A)|<span id="800">800</span>|
 |2|281A|[Word Capitalization](https://codeforces.com/problemset/problem/281/A)|800|
 |3|1088A|[Ehab and another construction problem](https://codeforces.com/problemset/problem/1088/A)|800|
