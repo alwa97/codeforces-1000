@@ -1,5 +1,16 @@
 # Shortest problems on Codeforces
 
+<details>
+  <summary>Spoiler warning</summary>
+  
+  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+  
+  ```javascript
+  console.log("I'm a code block!");
+  ```
+  
+</details>
+
 List of Codeforces problems with a short problem statement of 1000 characters or less. Sorted for each rating level.
 
 | Title | Links |
