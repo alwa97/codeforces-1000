@@ -88,42 +88,68 @@ db = conn.cursor()
 
 
 ##########################################################################################################
-# asd
+# Add tags, problem ratings and solved_by
+##########################################################################################################
+# db.execute("SELECT * FROM tags")
+# tags = db.fetchall()
+# tagMap = {}
+# for (tag_id, tag_key) in tags:
+#     tagMap[tag_key] = tag_id
+#
+# url = "https://codeforces.com/problemset/page/"
+#
+# for num in range(1, 70):
+#     req = urllib.request.urlopen(url + str(num))
+#     data = BeautifulSoup(req, "html.parser")
+#     for row in data.find_all('tr'):
+#         try:
+#             problem_id = row.find('a').text.strip()
+#
+#             db.execute("SELECT problem_id FROM problems WHERE problem_id = ?", (problem_id,))
+#             problem = db.fetchall()
+#
+#             if len(problem) == 1:
+#                 tags = list(map(lambda tag: tag.text.strip(), row.findAll("a", attrs={"class": "notice"})))
+#
+#                 for tag in tags:
+#                     db.execute(
+#                         "INSERT INTO problems_tags (problem_id, tag_id) VALUES (?,?)", (problem_id, tagMap[tag])
+#                     )
+#                 rating = int(row.find("span", attrs={"class": "ProblemRating"}).text.strip())
+#                 solved_by = int(row.find("a", attrs={"title": "Participants solved the problem"}).text[2:])
+#                 db.execute(
+#                     "UPDATE problems SET difficulty_rating = ?, solved_by = ? where problem_id = ?", (rating,
+#                                                                                                       solved_by,
+#                                                                                                       problem_id)
+#                 )
+#             print('#%d done' % num)
+#         except Exception as e:
+#             print(f"Error: {e}")
+#             continue
 ##########################################################################################################
 
-db.execute("SELECT * FROM tags")
-tags = db.fetchall()
-tagMap = {}
-for (tag_id, tag_key) in tags:
-    tagMap[tag_key] = tag_id
+##########################################################################################################
+# Print to Markdown table
+##########################################################################################################
+f = open('problem_table.txt', 'w')
 
-url = "https://codeforces.com/problemset/page/"
-
-for num in range(1, 70):
-    req = urllib.request.urlopen(url + str(num))
-    data = BeautifulSoup(req, "html.parser")
-    for row in data.find_all('tr'):
+for x in range(800, 5000, 100):
+    db.execute("SELECT problem_id, problem_name, problem_url, problem_statement_length, "
+               "difficulty_rating, solved_by FROM problems WHERE difficulty_rating = " + str(x) + " AND "
+                                                                                                  "problem_statement_length <= 1000 ORDER BY "
+                                                                                                  "problem_statement_length")
+    problems = db.fetchall()
+    f.write("|# | ID | Problem  | Rating |\n"
+            "|--- | ---| ----- | ---------- |\n")
+    index = 1
+    for (problem_id, problem_name, problem_url, problem_statement_length,
+         difficulty_rating, solved_by) in problems:
         try:
-            problem_id = row.find('a').text.strip()
-
-            db.execute("SELECT problem_id FROM problems WHERE problem_id = ?", (problem_id,))
-            problem = db.fetchall()
-
-            if len(problem) == 1:
-                tags = list(map(lambda tag: tag.text.strip(), row.findAll("a", attrs={"class": "notice"})))
-
-                for tag in tags:
-                    db.execute(
-                        "INSERT INTO problems_tags (problem_id, tag_id) VALUES (?,?)", (problem_id, tagMap[tag])
-                    )
-                rating = int(row.find("span", attrs={"class": "ProblemRating"}).text.strip())
-                solved_by = int(row.find("a", attrs={"title": "Participants solved the problem"}).text[2:])
-                db.execute(
-                    "UPDATE problems SET difficulty_rating = ?, solved_by = ? where problem_id = ?", (rating,
-                                                                                                      solved_by,
-                                                                                                      problem_id)
-                )
-            print('#%d done' % num)
+            f.write(
+                "|" + str(index) + "|" + problem_id + "|[" + problem_name + "](" + problem_url + ")|"
+                + str(difficulty_rating) + "|\n")
         except Exception as e:
             print(f"Error: {e}")
             continue
+        index = index + 1
+    f.write("\n\n")
