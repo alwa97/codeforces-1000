@@ -1,6 +1,6 @@
 # Shortest problems on Codeforces
 
-List with the shortest problems sorted first by  
+List of Codeforces problems with a short problem statement of 1000 characters or less. Sorted for each rating level.
 
 | Title | Links |
 |:---: | :---:|
