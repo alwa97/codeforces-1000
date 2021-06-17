@@ -2,3 +2,4 @@ venv
 .idea
 secrets
 problem_table.txt
+problem_stats_table.txt
