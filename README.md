@@ -13,7 +13,8 @@ List of Codeforces problems with a short problem statement of 1000 characters or
 | International Master| [2300](#2200)(40)|
 | Grandmaster| [2400](#2300)(41) [2500](#2400)(26)|
 | International Grandmaster| [2600](#2500)(15) [2700](#2600)(14) [2800](#2700)(13) [2900](#2800)(13) |
-| Legendary Grandmaster| [3000](#2900)(9) [3100](#3000)(14) [3200](#3100)(5) [3300](#3200)(2) [3400](#3300)(1) [3500](#3400)(2) |
+| <span id=700>Legendary Grandmaster</span>| [3000](#2900)(9) [3100](#3000)(14) [3200](#3100)(5) [3300](#3200)(2) [3400](#3300)(1) [3500](#3400)(2) |
+
 
 <details>
   <summary><span id=800>800</span></summary>
