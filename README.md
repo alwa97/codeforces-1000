@@ -1,10 +1,14 @@
-## Shortest problems on Codeforces
+# Shortest problems on Codeforces
 
-[Section link test](#fields)
+[800](#800)
+[900](#900)
+[1000](#1000)
+
+
 
 |# | ID | Problem  | Rating |
 |--- | ---| ----- | ---------- |
-|1|952A|[Quirky Quantifiers](https://codeforces.com/problemset/problem/952/A)|800|
+|1|952A|[Quirky Quantifiers](https://codeforces.com/problemset/problem/952/A)|<span id="800">800</span>|
 |2|281A|[Word Capitalization](https://codeforces.com/problemset/problem/281/A)|800|
 |3|1088A|[Ehab and another construction problem](https://codeforces.com/problemset/problem/1088/A)|800|
 |4|1096A|[Find Divisible](https://codeforces.com/problemset/problem/1096/A)|800|
@@ -85,7 +89,7 @@
 |79|38A|[Army](https://codeforces.com/problemset/problem/38/A)|800|
 |80|1080A|[Petya and Origami](https://codeforces.com/problemset/problem/1080/A)|800|
 | ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|26A|[Almost Prime](https://codeforces.com/problemset/problem/26/A)|900|
+|1|26A|[Almost Prime](https://codeforces.com/problemset/problem/26/A)|<span id="900">900</span>|
 |2|44A|[Indian Summer](https://codeforces.com/problemset/problem/44/A)|900|
 |3|130A|[Hexagonal numbers](https://codeforces.com/problemset/problem/130/A)|900|
 |4|52A|[123-sequence](https://codeforces.com/problemset/problem/52/A)|900|
@@ -118,7 +122,7 @@
 |31|318A|[Even Odds](https://codeforces.com/problemset/problem/318/A)|900|
 |32|1095B|[Array Stabilization](https://codeforces.com/problemset/problem/1095/B)|900|
 | ----- | ---------- | ------------------------------------------------------------ | ----- |
-|1|37A|[Towers](https://codeforces.com/problemset/problem/37/A)|1000|
+|1|37A|[Towers](https://codeforces.com/problemset/problem/37/A)|<span id="1000">1000</span>|
 |2|1177A|[Digits Sequence (Easy Edition)](https://codeforces.com/problemset/problem/1177/A)|1000|
 |3|753A|[Santa Claus and Candies](https://codeforces.com/problemset/problem/753/A)|1000|
 |4|1256A|[Payment Without Change](https://codeforces.com/problemset/problem/1256/A)|1000|
@@ -918,7 +922,3 @@
 |1|1054H|[Epic Convolution](https://codeforces.com/problemset/problem/1054/H)|3500|
 |2|799G|[Cut the pie](https://codeforces.com/problemset/problem/799/G)|3500|
 | ----- | ---------- | ------------------------------------------------------------ | ----- |
-
-<h4 id="fields">
-Fields
-</h4>
