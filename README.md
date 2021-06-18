@@ -2,6 +2,15 @@
 
 List of Codeforces problems with a short problem statement of 1000 characters or less. Sorted for each rating level.
 
+## Background
+Inspired by [this blog](https://codeforces.com/blog/entry/91600) with lists of short problems but missing some from my bracket, I set out to compile a more complete list and also a SQL database to cater for customized queries. As a start, I have made a general list for all 1000+ problems with a statement of 1000 characters or less, ordered by statement length and rating.
+
+I plan to add at least one more list filtered by tags and ratings but I have no idea how to best organize the duplicates, as the shortest problems with multiple tags will show up in many lists. Any suggestion is welcome. 
+
+If there is any additional list you'd like to see, please let me know. For those feeling adventurous, a quick-and-dirty Python script as well as SQL data dump can be found within the repository, add battery to a MariaDB server and you are good to go. 
+
+## Lists
+
 | Title | Links |
 |:---: | :---:|
 | Newbie| [800](#700)(80) [900](#800)(32) [1000](#900)(53) [1100](#1000)(42)|
