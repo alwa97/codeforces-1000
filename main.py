@@ -98,7 +98,7 @@ db = conn.cursor()
 #
 # url = "https://codeforces.com/problemset/page/"
 #
-# for num in range(1, 70):
+# for num in range(1, 71):
 #     req = urllib.request.urlopen(url + str(num))
 #     data = BeautifulSoup(req, "html.parser")
 #     for row in data.find_all('tr'):
@@ -112,16 +112,24 @@ db = conn.cursor()
 #                 tags = list(map(lambda tag: tag.text.strip(), row.findAll("a", attrs={"class": "notice"})))
 #
 #                 for tag in tags:
-#                     db.execute(
-#                         "INSERT INTO problems_tags (problem_id, tag_id) VALUES (?,?)", (problem_id, tagMap[tag])
-#                     )
+#                     try:
+#                         db.execute(
+#                             "INSERT INTO problems_tags (problem_id, tag_id) VALUES (?,?)", (problem_id, tagMap[tag])
+#                         )
+#                     except Exception as e:
+#                         print(f"Error: {e}")
+#                         continue
 #                 rating = int(row.find("span", attrs={"class": "ProblemRating"}).text.strip())
 #                 solved_by = int(row.find("a", attrs={"title": "Participants solved the problem"}).text[2:])
-#                 db.execute(
-#                     "UPDATE problems SET difficulty_rating = ?, solved_by = ? where problem_id = ?", (rating,
-#                                                                                                       solved_by,
-#                                                                                                       problem_id)
-#                 )
+#                 try:
+#                     db.execute(
+#                         "UPDATE problems SET difficulty_rating = ?, solved_by = ? where problem_id = ?", (rating,
+#                                                                                                           solved_by,
+#                                                                                                           problem_id)
+#                     )
+#                 except Exception as e:
+#                     print(f"Error: {e}")
+#                     continue
 #             print('#%d done' % num)
 #         except Exception as e:
 #             print(f"Error: {e}")
