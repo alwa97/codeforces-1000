@@ -1,17 +1,21 @@
+import re
+
 import secrets.credentials as secret
 import urllib.request
 from bs4 import BeautifulSoup
 import requests
 import time
 import hashlib
-from tinydb import TinyDB, Query
+from tinydb import Query
 from urllib.request import urlopen, Request
 from pyquery import PyQuery as pq
-import html2text
-from time import sleep
 import mariadb
 import sys
 import random
+
+# Change these numbers accordingly if you are building the database
+alreadyProcessedProblems = 1540
+numberOfPageToUpdate = 1
 
 ##########################################################################################################
 # Connect to MariaDB database
@@ -37,103 +41,111 @@ db = conn.cursor()
 ##########################################################################################################
 # Enter all problems into external database table 'problems'
 ##########################################################################################################
-# url = "https://codeforces.com/api/problemset.problems"
-# requestPrefix = str(random.randrange(100000, 1000000))
-# apiSigString = hashlib.sha512(
-#     (requestPrefix + "/problemset.problems?apiKey=" + secret.apiKey + "&time=" + int(time.time()).__str__() +
-#      "#" + secret.apiSecret).encode("utf-8")).hexdigest()
-# apiSig = requestPrefix + apiSigString
-# params = {"apiKey": secret.apiKey, "time": int(time.time()), "apiSig": apiSig}
-# data = requests.get(url, params=params)
-# problems = data.json()['result']['problems']
-#
-# for problem in problems:
-#     try:
-#         db.execute(
-#             "INSERT INTO problems (problem_contest_contest_index, problem_name, problem_type, problem_url) "
-#             "VALUES (?,?,?,?,?,?)",
-#             (str(problem['contestId']) + problem['index'], int(problem['contestId']), problem['index'], problem['name'],
-#              problem['type'],
-#              "https://codeforces.com/problemset/problem/" + str(problem['contestId']) + "/" + problem['index']))
-#     except mariadb.Error as e:
-#         print(f"Error: {e}")
+url = "https://codeforces.com/api/problemset.problems"
+requestPrefix = str(random.randrange(100000, 1000000))
+apiSigString = hashlib.sha512(
+    (requestPrefix + "/problemset.problems?apiKey=" + secret.apiKey + "&time=" + int(time.time()).__str__() +
+     "#" + secret.apiSecret).encode("utf-8")).hexdigest()
+apiSig = requestPrefix + apiSigString
+params = {"apiKey": secret.apiKey, "time": int(time.time()), "apiSig": apiSig}
+data = requests.get(url, params=params)
+problems = data.json()['result']['problems']
+
+for problem in problems:
+    if int(problem['contestId']) <= alreadyProcessedProblems:
+        continue
+    try:
+        print("Inserting into problems: " + str(problem['contestId']) + str(problem['index']))
+        db.execute(
+            "INSERT INTO problems (problem_id, contest_id, contest_index, problem_name, problem_type, problem_url) "
+            "VALUES (?,?,?,?,?,?)",
+            (str(problem['contestId']) + problem['index'], int(problem['contestId']), problem['index'], problem['name'],
+             problem['type'],
+             "https://codeforces.com/problemset/problem/" + str(problem['contestId']) + "/" + problem['index']))
+    except mariadb.Error as e:
+        print(f"Error: {e}")
 ##########################################################################################################
 
 
 ##########################################################################################################
 # Find statement lengths of all problems
 ##########################################################################################################
-# db.execute(
-#     "SELECT problem_id, problem_url from problems"
-# )
-#
-# problemSet = db.fetchall()
-# for (problem_id, problem_url) in problemSet:
-#     try:
-#         print("Processing: " + problem_id)
-#         req = Request(problem_url, headers={'User-Agent': 'Mozilla/5.0'})
-#         webpage = urlopen(req).read()
-#         html_code = pq(webpage)
-#         statement = html_code.find('.problem-statement').remove('.header').remove('.input-specification').remove(
-#             '.output-specification').remove('.sample-tests').html()
-#         qq = Query()
-#         if statement is not None:
-#             db.execute(
-#                 "UPDATE problems SET problem_statement_length = ? WHERE problem_id = ?",
-#                 (len(statement), problem_id))
-#     except mariadb.Error as e:
-#         print(f"Error: {e}")
-#         continue
+db.execute(
+    "SELECT problem_id, problem_url from problems"
+)
+
+problemSet = db.fetchall()
+for (problem_id, problem_url) in problemSet:
+    if int(re.findall(r'\d+', problem_id)[0]) <= alreadyProcessedProblems:
+        continue
+    try:
+        print("Updating problem statement length: " + problem_id)
+        req = Request(problem_url, headers={'User-Agent': 'Mozilla/5.0'})
+        webpage = urlopen(req).read()
+        html_code = pq(webpage)
+        statement = html_code.find('.problem-statement').remove('.header').remove('.input-specification').remove(
+            '.output-specification').remove('.sample-tests').html()
+        qq = Query()
+        if statement is not None:
+            db.execute(
+                "UPDATE problems SET problem_statement_length = ? WHERE problem_id = ?",
+                (len(statement), problem_id))
+    except mariadb.Error as e:
+        print(f"Error: {e}")
+        continue
 ##########################################################################################################
 
 
 ##########################################################################################################
 # Add tags, problem ratings and solved_by
 ##########################################################################################################
-# db.execute("SELECT * FROM tags")
-# tags = db.fetchall()
-# tagMap = {}
-# for (tag_id, tag_key) in tags:
-#     tagMap[tag_key] = tag_id
-#
-# url = "https://codeforces.com/problemset/page/"
-#
-# for num in range(1, 71):
-#     req = urllib.request.urlopen(url + str(num))
-#     data = BeautifulSoup(req, "html.parser")
-#     for row in data.find_all('tr'):
-#         try:
-#             problem_id = row.find('a').text.strip()
-#
-#             db.execute("SELECT problem_id FROM problems WHERE problem_id = ?", (problem_id,))
-#             problem = db.fetchall()
-#
-#             if len(problem) == 1:
-#                 tags = list(map(lambda tag: tag.text.strip(), row.findAll("a", attrs={"class": "notice"})))
-#
-#                 for tag in tags:
-#                     try:
-#                         db.execute(
-#                             "INSERT INTO problems_tags (problem_id, tag_id) VALUES (?,?)", (problem_id, tagMap[tag])
-#                         )
-#                     except Exception as e:
-#                         print(f"Error: {e}")
-#                         continue
-#                 rating = int(row.find("span", attrs={"class": "ProblemRating"}).text.strip())
-#                 solved_by = int(row.find("a", attrs={"title": "Participants solved the problem"}).text[2:])
-#                 try:
-#                     db.execute(
-#                         "UPDATE problems SET difficulty_rating = ?, solved_by = ? where problem_id = ?", (rating,
-#                                                                                                           solved_by,
-#                                                                                                           problem_id)
-#                     )
-#                 except Exception as e:
-#                     print(f"Error: {e}")
-#                     continue
-#             print('#%d done' % num)
-#         except Exception as e:
-#             print(f"Error: {e}")
-#             continue
+db.execute("SELECT * FROM tags")
+tags = db.fetchall()
+tagMap = {}
+for (tag_id, tag_key) in tags:
+    tagMap[tag_key] = tag_id
+
+url = "https://codeforces.com/problemset/page/"
+
+for num in range(1, numberOfPageToUpdate):
+    print("Processing page: " + str(num))
+    req = urllib.request.urlopen(url + str(num))
+    data = BeautifulSoup(req, "html.parser")
+    for row in data.find_all('tr'):
+        try:
+            problem_id = row.find('a').text.strip()
+            if int(re.findall(r'\d+', problem_id)[0]) <= alreadyProcessedProblems:
+                continue
+
+            db.execute("SELECT problem_id FROM problems WHERE problem_id = ?", (problem_id,))
+            problem = db.fetchall()
+
+            if len(problem) == 1:
+                tags = list(map(lambda tag: tag.text.strip(), row.findAll("a", attrs={"class": "notice"})))
+
+                for tag in tags:
+                    try:
+                        db.execute(
+                            "INSERT INTO problems_tags (problem_id, tag_id) VALUES (?,?)", (problem_id, tagMap[tag])
+                        )
+                    except Exception as e:
+                        print(f"Error: {e}")
+                        continue
+                rating = int(row.find("span", attrs={"class": "ProblemRating"}).text.strip())
+                solved_by = int(row.find("a", attrs={"title": "Participants solved the problem"}).text[2:])
+                try:
+                    db.execute(
+                        "UPDATE problems SET difficulty_rating = ?, solved_by = ? where problem_id = ?", (rating,
+                                                                                                          solved_by,
+                                                                                                          problem_id)
+                    )
+                except Exception as e:
+                    print(f"Error: {e}")
+                    continue
+            print('#%d done' % num)
+        except Exception as e:
+            print(f"Error: {e}")
+            continue
 ##########################################################################################################
 
 ##########################################################################################################

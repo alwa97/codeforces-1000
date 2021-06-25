@@ -1,4 +1,4 @@
-# Shortest problems on Codeforces
+# Shortest problems on Codeforces (Updated 2021-06-25)
 
 List of Codeforces problems with a short problem statement of 1000 characters or less. Sorted for each rating level.
 
@@ -20,7 +20,7 @@ If there is any additional list you'd like to see, please let me know. For those
 | Candidate Master|  [1900](#1800)(66) [2000](#1900)(50) |
 | Master | [2100](#2000)(41) [2200](#2100)(45)|
 | International Master| [2300](#2200)(44)|
-| Grandmaster| [2400](#2300)(48) [2500](#2400)(36)|
+| Grandmaster| [2400](#2300)(48) [2500](#2400)(37)|
 | International Grandmaster| [2600](#2500)(23) [2700](#2600)(15) [2800](#2700)(15) [2900](#2800)(16) |
 | <span id=700>Legendary Grandmaster</span>| [3000](#2900)(11) [3100](#3000)(18) [3200](#3100)(6) [3300](#3200)(3) [3400](#3300)(2) [3500](#3400)(4) |
 
@@ -1138,11 +1138,12 @@ If there is any additional list you'd like to see, please let me know. For those
 |29|530I|[Different variables](https://codeforces.com/problemset/problem/530/I)|2500|
 |30|1516E|[Baby Ehab Plays with Permutations](https://codeforces.com/problemset/problem/1516/E)|2500|
 |31|1117G|[Recursive Queries](https://codeforces.com/problemset/problem/1117/G)|2500|
-|32|1188C|[Array Beauty](https://codeforces.com/problemset/problem/1188/C)|2500|
-|33|1209E2|[Rotate Columns (hard version)](https://codeforces.com/problemset/problem/1209/E2)|2500|
-|34|1521D|[Nastia Plays with a Tree](https://codeforces.com/problemset/problem/1521/D)|2500|
-|35|1327F|[AND Segments](https://codeforces.com/problemset/problem/1327/F)|2500|
-|36|1175F|[The Number of Subpermutations](https://codeforces.com/problemset/problem/1175/F)|2500|
+|32|1539E|[Game with Cards](https://codeforces.com/problemset/problem/1539/E)|2500|
+|33|1188C|[Array Beauty](https://codeforces.com/problemset/problem/1188/C)|2500|
+|34|1209E2|[Rotate Columns (hard version)](https://codeforces.com/problemset/problem/1209/E2)|2500|
+|35|1521D|[Nastia Plays with a Tree](https://codeforces.com/problemset/problem/1521/D)|2500|
+|36|1327F|[AND Segments](https://codeforces.com/problemset/problem/1327/F)|2500|
+|37|1175F|[The Number of Subpermutations](https://codeforces.com/problemset/problem/1175/F)|2500|
 </details>
 
 <details>
