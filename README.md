@@ -1,4 +1,6 @@
-# Shortest problems on Codeforces (Updated 2021-06-25)
+# Shortest problems on Codeforces
+
+(Updated on 2021-06-25) 
 
 List of Codeforces problems with a short problem statement of 1000 characters or less. Sorted for each rating level.
 
