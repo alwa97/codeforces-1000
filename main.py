@@ -50,7 +50,7 @@ apiSig = requestPrefix + apiSigString
 params = {"apiKey": secret.apiKey, "time": int(time.time()), "apiSig": apiSig}
 data = requests.get(url, params=params)
 problems = data.json()['result']['problems']
-
+april_fool_contests = "(1505, 1331, 1145, 952, 784, 656, 409, 290, 171)"
 for problem in problems:
     if int(problem['contestId']) <= alreadyProcessedProblems:
         continue
@@ -157,9 +157,9 @@ stats = {}
 
 for x in range(800, 4000, 100):
     db.execute("SELECT problem_id, problem_name, problem_url, problem_statement_length, "
-               "difficulty_rating, solved_by FROM problems WHERE difficulty_rating = " + str(x) + " AND "
-                                                                                                  "problem_statement_length <= 1000 ORDER BY "
-                                                                                                  "problem_statement_length")
+               "difficulty_rating, solved_by FROM problems WHERE difficulty_rating = " + str(x) +
+               " AND problem_statement_length <= 1000 AND contest_id not in " + april_fool_contests +
+               "ORDER BY problem_statement_length")
     problems = db.fetchall()
     if len(problems) >= 1:
         f.write("<details>\n"
