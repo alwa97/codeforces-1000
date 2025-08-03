@@ -233,11 +233,11 @@ def generate_readme():
                    AND problem_statement_length <= 1000 
                    AND problem_statement_length IS NOT NULL
                    AND contest_id not in ({april_fool_str})
-                   ORDER BY problem_statement_length""")
+                   ORDER BY problem_id""")
         problems = db.fetchall()
         
         if len(problems) >= 1:
-            f.write("<details>\n"
+            f.write("<details open>\n"
                     "  <summary><span id=" + str(x) + ">Rating " + str(x) + "</span></summary>\n\n"
                     )
             f.write("|# | ID | Problem  | Rating |\n"
