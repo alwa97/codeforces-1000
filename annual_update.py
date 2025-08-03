@@ -246,7 +246,7 @@ def generate_readme():
             for row in problems:
                 try:
                     f.write(
-                        "|" + str(index) + "|" + row['problem_id'] + "|[" + row['problem_name'] + "](" + row['problem_url'] + ")|"
+                        "|" + str(index) + "|" + row['problem_id'] + "|<a href=\"" + row['problem_url'] + "\" target=\"_blank\">" + row['problem_name'] + "</a>|"
                         + str(row['difficulty_rating']) + "|\n")
                 except Exception as e:
                     continue
