@@ -1,5 +1,14 @@
 venv
 .idea
-secrets
+secrets/
+creds/credentials_local.py
 problem_table.txt
 problem_stats_table.txt
+*.db
+!codeforces.db
+nul
+codeforces_new.db
+*.db-journal
+/.claude/settings.local.json
+__pycache__/
+*/__pycache__/
